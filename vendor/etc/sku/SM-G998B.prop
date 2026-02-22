@@ -1,0 +1,7 @@
+ro.product.vendor.model=SM-G998B
+ro.product.vendor.name=p3sxxx
+ro.vendor.build.fingerprint=samsung/p3sxxx/p3s:11/RP1A.200720.012/G998BXXSJHZA6:user/release-keys
+ro.vendor.build.version.incremental=G998BXXSJHZA6
+ro.vendor.nfc.support.advancedsetting=false
+ro.vendor.nfc.support.defaultaid=true
+ro.vendor.nfc.support.nonaid=true
