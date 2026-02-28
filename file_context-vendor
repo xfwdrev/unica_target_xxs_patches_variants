@@ -37,6 +37,9 @@
 /vendor/firmware/SM-G998B/wifi u:object_r:vendor_firmware_file:s0
 /vendor/firmware/SM-G998B/wifi/nvram.txt_ES32_semco_c0 u:object_r:vendor_firmware_file:s0
 /vendor/firmware/SM-G998B/wifi/nvram.txt_ES40_semco_c1 u:object_r:vendor_firmware_file:s0
+/vendor/firmware/SM-G998B/wifi/nvram.txt_1wk_es40_c0 u:object_r:vendor_firmware_file:s0
+/vendor/firmware/SM-G998B/wifi/nvram.txt_1wk_es41_c0 u:object_r:vendor_firmware_file:s0
+/vendor/firmware/SM-G998B/wifi/nvram.txt_4389_3321 u:object_r:vendor_firmware_file:s0
 /vendor/tee_SM-G998N u:object_r:tee_file:s0
 /vendor/tee_SM-G998N/00000000-0000-0000-0000-000000010081 u:object_r:tee_file:s0
 /vendor/tee_SM-G998N/00000000-0000-0000-0000-000000020081 u:object_r:tee_file:s0

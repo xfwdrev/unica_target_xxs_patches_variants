@@ -37,6 +37,9 @@ on early-init && property:ro.boot.em.model=SM-G998B
     mount none /vendor/firmware/SM-G998B/nfc/libsn100u_fw.bin /vendor/firmware/nfc/libsn100u_fw.bin bind
     mount none /vendor/firmware/SM-G998B/wifi/nvram.txt_ES32_semco_c0 /vendor/firmware/wifi/nvram.txt_ES32_semco_c0 bind
     mount none /vendor/firmware/SM-G998B/wifi/nvram.txt_ES40_semco_c1 /vendor/firmware/wifi/nvram.txt_ES40_semco_c1 bind
+    mount none /vendor/firmware/SM-G998B/wifi/nvram.txt_1wk_es40_c0 /vendor/firmware/wifi/nvram.txt_1wk_es40_c0 bind
+    mount none /vendor/firmware/SM-G998B/wifi/nvram.txt_1wk_es41_c0 /vendor/firmware/wifi/nvram.txt_1wk_es41_c0 bind
+    mount none /vendor/firmware/SM-G998B/wifi/nvram.txt_4389_3321 /vendor/firmware/wifi/nvram.txt_4389_3321 bind
 
 on boot
     restart audioserver
