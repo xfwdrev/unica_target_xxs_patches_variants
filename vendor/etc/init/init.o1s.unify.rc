@@ -13,10 +13,10 @@ on early-init && property:ro.boot.em.model=SM-G991N
     mount none /vendor/firmware/SM-G991N/is_rta.bin /vendor/firmware/is_rta.bin bind
     mount none /vendor/firmware/SM-G991N/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
     mount none /vendor/firmware/SM-G991N/NPU.bin /vendor/firmware/NPU.bin bind
-    mount none /vendor/firmware/SM-G991N/rsxe.bin /vendor/firmware/rsxe.bin bind
+    mount none /vendor/firmware/SM-G991N/rxse.bin /vendor/firmware/rxse.bin bind
     mount none /vendor/firmware/SM-G991N/SoundBoosterParam.bin /vendor/firmware/SoundBoosterParam.bin bind
     mount none /vendor/firmware/SM-G991N/vts.bin /vendor/firmware/vts.bin bind
-    mount none /vendor/firmware/SM-G991N/nfc/libsn100u_fw.bin /vendor/firmware/nfc/libsn100u_fw.bin bind
+    mount none /vendor/firmware/SM-G991N/nfc/libsn100u_fw.so /vendor/firmware/nfc/libsn100u_fw.so bind
 
     # TEEgris
     mount none /vendor/tee_SM-G991N /vendor/tee bind
@@ -36,10 +36,10 @@ on early-init && property:ro.boot.em.model=SM-G991B
     mount none /vendor/firmware/SM-G991B/is_rta.bin /vendor/firmware/is_rta.bin bind
     mount none /vendor/firmware/SM-G991B/mfc_fw.bin /vendor/firmware/mfc_fw.bin bind
     mount none /vendor/firmware/SM-G991B/NPU.bin /vendor/firmware/NPU.bin bind
-    mount none /vendor/firmware/SM-G991B/rsxe.bin /vendor/firmware/rsxe.bin bind
+    mount none /vendor/firmware/SM-G991B/rxse.bin /vendor/firmware/rxse.bin bind
     mount none /vendor/firmware/SM-G991B/SoundBoosterParam.bin /vendor/firmware/SoundBoosterParam.bin bind
     mount none /vendor/firmware/SM-G991B/vts.bin /vendor/firmware/vts.bin bind
-    mount none /vendor/firmware/SM-G991B/nfc/libsn100u_fw.bin /vendor/firmware/nfc/libsn100u_fw.bin bind
+    mount none /vendor/firmware/SM-G991B/nfc/libsn100u_fw.so /vendor/firmware/nfc/libsn100u_fw.so bind
 
 on boot
     restart audioserver
